@@ -1,0 +1,1571 @@
+{
+  "schema_version": "1.0.0",
+  "data_version": "2026-09-14.1",
+  "canonical_url": "https://setupmeld.com/guides/docking-station-laptop-compatibility/",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "citation_format": "SetupMeld, Docking Station Compatibility Matrix, data version {data_version}, https://setupmeld.com/guides/docking-station-laptop-compatibility/, cell source: {source_urls}.",
+  "fields": [
+    {
+      "name": "host_support",
+      "label": "Host support",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "display_capability",
+      "label": "Display capability",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "display_interfaces",
+      "label": "Display interfaces",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "switching_method",
+      "label": "Switching method",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "keyboard_mouse_channel",
+      "label": "Keyboard / mouse channel",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "peripheral_usb_capability",
+      "label": "Peripheral USB capability",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "clamshell_support",
+      "label": "Clamshell support",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "power_delivery",
+      "label": "Power Delivery",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "known_non_working_combinations",
+      "label": "Known non-working combinations",
+      "source_type": "official_specification"
+    },
+    {
+      "name": "official_support_evidence",
+      "label": "Official Support Evidence",
+      "source_type": "official_support"
+    },
+    {
+      "name": "public_user_report",
+      "label": "Public User Report",
+      "source_type": "public_user_report"
+    },
+    {
+      "name": "setupmeld_tested",
+      "label": "SetupMeld Tested",
+      "source_type": "setupmeld_tested"
+    }
+  ],
+  "models": [
+    "AV Access iDock C20",
+    "ASUS ProArt PA278CGRV",
+    "StarTech.com 129N-USBC-KVM-DOCK",
+    "Dell Thunderbolt Dock WD22TB4",
+    "CalDigit TS4",
+    "Plugable UD-6950PDZ",
+    "Anker 778 Thunderbolt Docking Station (A83A9)",
+    "UGREEN Revodok Max 213"
+  ],
+  "records": [
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "host_support",
+      "field_label": "Host support",
+      "value": "2 full-featured USB-C laptop inputs; Windows uses DP MST; macOS is supported but not for dual independent MST desktops.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "display_capability",
+      "field_label": "Display capability",
+      "value": "Windows: 2 × 4K @ 60Hz. macOS: two outputs can light but mirror rather than extend independently.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "display_interfaces",
+      "field_label": "Display interfaces",
+      "value": "2 × HDMI outputs.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "switching_method",
+      "field_label": "Switching method",
+      "value": "Panel button; wired remote switch button supported.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "keyboard_mouse_channel",
+      "field_label": "Keyboard / mouse channel",
+      "value": "Shared keyboard/mouse through USB; directly paired Bluetooth input does not automatically follow KVM switching.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "peripheral_usb_capability",
+      "field_label": "Peripheral USB capability",
+      "value": "2 × USB 3.0 5Gbps; 4 × USB 2.0 480Mbps; 1 × USB-C data 5Gbps.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "clamshell_support",
+      "field_label": "Clamshell support",
+      "value": "Yes; AV Access explicitly lists clamshell support.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "power_delivery",
+      "field_label": "Power Delivery",
+      "value": "60W USB-C charging per connected laptop; both hosts remain powered.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "known_non_working_combinations",
+      "field_label": "Known non-working combinations",
+      "value": "macOS cannot create two independent extended displays through the C20 MST path; the two monitors also cannot be split one-per-host while USB peripherals are shared.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.avaccess.com/products/idock-c20-kvm-switch-docking-station/",
+        "https://support.avaccess.com/doc/docly-documentation/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "official_support_evidence",
+      "field_label": "Official Support Evidence",
+      "value": "AV Access troubleshooting says MacBook dual displays through this MST path are mirrored rather than independently extended. It also says a 4K display falling to 1080p can depend on the laptop's simultaneous video-stream capability and the monitor port, and recommends lowering resolution/refresh rate when video fails. Source",
+      "source_type": "official_support",
+      "status": "verified",
+      "source_urls": [
+        "https://support.avaccess.com/kvm-switches-and-docks/idock/idock-c20/troubleshootings/"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "public_user_report",
+      "field_label": "Public User Report",
+      "value": "未核到",
+      "source_type": "public_user_report",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "AV Access iDock C20",
+      "field_name": "setupmeld_tested",
+      "field_label": "SetupMeld Tested",
+      "value": "未核到",
+      "source_type": "setupmeld_tested",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "host_support",
+      "field_label": "Host support",
+      "value": "USB-C host connection carries DisplayPort video and data; HDMI and DisplayPort inputs are also available.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "display_capability",
+      "field_label": "Display capability",
+      "value": "Built-in panel: 1 × 2560 × 1440 @ up to 144Hz; DisplayPort daisy-chain output is supported, with downstream ceiling host-dependent.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "display_interfaces",
+      "field_label": "Display interfaces",
+      "value": "HDMI 2.1, DisplayPort 1.4 DSC input/output, USB-C with DisplayPort support.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "switching_method",
+      "field_label": "Switching method",
+      "value": "Built-in Auto KVM.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "keyboard_mouse_channel",
+      "field_label": "Keyboard / mouse channel",
+      "value": "Keyboard and mouse share through the built-in USB hub when using KVM.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "peripheral_usb_capability",
+      "field_label": "Peripheral USB capability",
+      "value": "Built-in USB 3.2 hub.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "clamshell_support",
+      "field_label": "Clamshell support",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "power_delivery",
+      "field_label": "Power Delivery",
+      "value": "USB-C Power Delivery up to 96W.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "known_non_working_combinations",
+      "field_label": "Known non-working combinations",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/",
+        "https://www.asus.com/displays-desktops/monitors/proart/proart-display-pa278cgrv/techspec/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "official_support_evidence",
+      "field_label": "Official Support Evidence",
+      "value": "ASUS's product FAQ requires one KVM host to use USB-C with DP Alt Mode; a second host using HDMI or DisplayPort also needs a separate USB upstream cable for keyboard/mouse switching. A video-only second-host cable is therefore not enough for KVM control. Source",
+      "source_type": "official_support",
+      "status": "verified",
+      "source_urls": [
+        "https://www.asus.com/us/displays-desktops/monitors/proart/proart-display-pa278cgrv/"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "public_user_report",
+      "field_label": "Public User Report",
+      "value": "未核到",
+      "source_type": "public_user_report",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "ASUS ProArt PA278CGRV",
+      "field_name": "setupmeld_tested",
+      "field_label": "SetupMeld Tested",
+      "value": "未核到",
+      "source_type": "setupmeld_tested",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "host_support",
+      "field_label": "Host support",
+      "value": "2 USB-C computers; DisplayLink-certified for Windows, macOS and ChromeOS.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "display_capability",
+      "field_label": "Display capability",
+      "value": "2 × 4K @ 60Hz external displays, including extended dual displays on base Apple M-series MacBooks through DisplayLink.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "display_interfaces",
+      "field_label": "Display interfaces",
+      "value": "2 × DisplayPort outputs.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "switching_method",
+      "field_label": "Switching method",
+      "value": "Push button; downloadable hot-key software for Windows and macOS.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "keyboard_mouse_channel",
+      "field_label": "Keyboard / mouse channel",
+      "value": "2 × dedicated USB-A USB 2.0 HID ports.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "peripheral_usb_capability",
+      "field_label": "Peripheral USB capability",
+      "value": "2 × USB-A + 1 × USB-C at USB 3.2 Gen 2 10Gbps, plus HID USB at 480Mbps.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "clamshell_support",
+      "field_label": "Clamshell support",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "power_delivery",
+      "field_label": "Power Delivery",
+      "value": "USB PD 3.0: 90W to active host and 45W to second host; both charge simultaneously.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "known_non_working_combinations",
+      "field_label": "Known non-working combinations",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://media.startech.com/cms/pdfs/129n-usbc-kvm-dock_datasheet.pdf",
+        "https://sgcdn.startech.com/005329/media/sets/129XX-USBC-KVM-DOCK_Manual/129N.UE-USBC-KVM-DOCK_REV1.pdf"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "official_support_evidence",
+      "field_label": "Official Support Evidence",
+      "value": "StarTech's DisplayLink support FAQ says macOS 10.15 or later requires DisplayLink Manager plus the required Screen Recording/accessibility permissions; if the app is not running or permissions are disabled, DisplayLink-driven external displays may not appear. Source",
+      "source_type": "official_support",
+      "status": "verified",
+      "source_urls": [
+        "https://www.startech.com/en-eu/faq/displaylink-manager-app-on-macos"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "public_user_report",
+      "field_label": "Public User Report",
+      "value": "On StarTech's official IT Pro Community, a MacBook Pro M3 user reported the second DisplayLink monitor going black when Screen Recording permission was disabled; StarTech support explained that the permission is required for the virtual display path. This is a DisplayLink support case, not a 129N-specific reliability test. Source",
+      "source_type": "public_user_report",
+      "status": "verified",
+      "source_urls": [
+        "https://community.startech.com/t/why-do-i-have-to-enable-screen-audio-recording-on-macos/971"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "StarTech.com 129N-USBC-KVM-DOCK",
+      "field_name": "setupmeld_tested",
+      "field_label": "SetupMeld Tested",
+      "value": "未核到",
+      "source_type": "setupmeld_tested",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "host_support",
+      "field_label": "Host support",
+      "value": "Thunderbolt hosts and USB-C hosts with DisplayPort Alt Mode; Dell lists Windows 10/11, Ubuntu 20.04+ and ChromeOS M107+.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "display_capability",
+      "field_label": "Display capability",
+      "value": "2 × 4K @ 60Hz on qualifying Thunderbolt/HBR3/DSC combinations; up to four external displays under specific bandwidth/topology conditions.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "display_interfaces",
+      "field_label": "Display interfaces",
+      "value": "2 × DisplayPort 1.4, HDMI 2.0, MFDP USB-C and Thunderbolt 4 USB-C display paths.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "switching_method",
+      "field_label": "Switching method",
+      "value": "Not a KVM; single-host dock, so switching hosts requires reconnecting upstream or a separate switching layer.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "keyboard_mouse_channel",
+      "field_label": "Keyboard / mouse channel",
+      "value": "Standard USB device path; no dedicated KVM keyboard/mouse channel listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "peripheral_usb_capability",
+      "field_label": "Peripheral USB capability",
+      "value": "3 × USB-A USB 3.2 Gen 1; USB-C Gen 2 data plus Thunderbolt 4 ports on compatible hosts.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "clamshell_support",
+      "field_label": "Clamshell support",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "power_delivery",
+      "field_label": "Power Delivery",
+      "value": "Up to 130W to supported Dell systems or 90W to non-Dell systems with the 180W adapter.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "known_non_working_combinations",
+      "field_label": "Known non-working combinations",
+      "value": "Rear HDMI and MFDP USB-C video paths are muxed and cannot both be used as simultaneous video outputs; non-Thunderbolt hosts lose Thunderbolt features.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/display-resolution-table?guid=guid-fafc77a4-c95f-44df-92ad-608231d11cd9",
+        "https://www.dell.com/support/manuals/en-sg/wd22tb4-dock/dell_wd22tb4_userguide/product-specifications?guid=guid-bb63fcdf-357e-408c-82f1-c7c56e8d5b4e&lang=en-us"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "official_support_evidence",
+      "field_label": "Official Support Evidence",
+      "value": "Dell troubleshooting says monitor count and resolution depend on the host graphics path; with Intel graphics plus the system LCD, only two displays may be supported, while discrete Nvidia/AMD configurations can support three external displays plus the system LCD. Dell also recommends a dock power-cycle sequence for flicker or USB failures. Source",
+      "source_type": "official_support",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/support/manuals/en-us/wd22tb4-dock/dell_wd22tb4_userguide/symptoms-and-solutions?guid=guid-8fe4355a-515f-4206-a6b4-2b1dfd1b6266"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "public_user_report",
+      "field_label": "Public User Report",
+      "value": "A Dell Community WD22TB4 case reports dual-4K HBR2 behavior falling from 60Hz to 30Hz after reconnecting the dock, with connection-order workarounds discussed in the official community thread. Treat this as a user/support case, not a universal WD22TB4 fact. Source",
+      "source_type": "public_user_report",
+      "status": "verified",
+      "source_urls": [
+        "https://www.dell.com/community/en/conversations/latitude/psa-wd22tb4-still-has-problem-with-dual-4k-monitors-on-hbr2-tb-systems/647f9d38f4ccf8a8de1764ed"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Dell Thunderbolt Dock WD22TB4",
+      "field_name": "setupmeld_tested",
+      "field_label": "SetupMeld Tested",
+      "value": "未核到",
+      "source_type": "setupmeld_tested",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "host_support",
+      "field_label": "Host support",
+      "value": "Thunderbolt 4/3, USB4 and USB-C computers; official minimums include macOS 11.4+ and Windows 10 20H2+.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "display_capability",
+      "field_label": "Display capability",
+      "value": "Windows / Intel Mac / ChromeOS: up to 2 × 4K @ 60Hz. M1 Pro/Max: up to 2 × 6K @ 60Hz. Original M1: one external display through Thunderbolt.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "display_interfaces",
+      "field_label": "Display interfaces",
+      "value": "DisplayPort 1.4 plus downstream Thunderbolt 4/USB4 display paths.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "switching_method",
+      "field_label": "Switching method",
+      "value": "Not a KVM; single-host dock with no host-switch control listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "keyboard_mouse_channel",
+      "field_label": "Keyboard / mouse channel",
+      "value": "Standard USB path; no dedicated KVM keyboard/mouse channel listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "peripheral_usb_capability",
+      "field_label": "Peripheral USB capability",
+      "value": "5 × USB-A 10Gbps and 3 × USB-C 10Gbps, plus Thunderbolt 4 ports.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "clamshell_support",
+      "field_label": "Clamshell support",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "power_delivery",
+      "field_label": "Power Delivery",
+      "value": "Up to 98W host charging.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "known_non_working_combinations",
+      "field_label": "Known non-working combinations",
+      "value": "Original M1 Macs do not support dual external displays through TS4; USB-C hosts have reduced functionality and 2.5Gb Ethernet is Thunderbolt-host dependent.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/thunderbolt-station-4/",
+        "https://www.caldigit.com/ts4-support/"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "official_support_evidence",
+      "field_label": "Official Support Evidence",
+      "value": "CalDigit's TS4 support knowledge base documents shared bandwidth groups: many USB ports share the same 10Gbps USB hub, while DisplayPort and downstream Thunderbolt ports share the same 40Gbps Thunderbolt bandwidth. High-bandwidth peripherals therefore compete within those groups rather than receiving dedicated bandwidth. Source",
+      "source_type": "official_support",
+      "status": "verified",
+      "source_urls": [
+        "https://www.caldigit.com/ts4-interface-bandwidth-allocation-and-diagram/"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "public_user_report",
+      "field_label": "Public User Report",
+      "value": "未核到",
+      "source_type": "public_user_report",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "CalDigit TS4",
+      "field_name": "setupmeld_tested",
+      "field_label": "SetupMeld Tested",
+      "value": "未核到",
+      "source_type": "setupmeld_tested",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "host_support",
+      "field_label": "Host support",
+      "value": "USB-C with DisplayPort Alt Mode, USB4 or Thunderbolt; Windows 10/11, macOS 11+ and ChromeOS 100+. Full display capability uses DisplayLink software.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "display_capability",
+      "field_label": "Display capability",
+      "value": "Up to 3 × 4K @ 60Hz with a DP 1.4 host path; Display 2 and 3 use DisplayLink at up to 4K @ 60Hz each. DP 1.2 can limit Display 1 to 4K @ 30Hz.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "display_interfaces",
+      "field_label": "Display interfaces",
+      "value": "3 HDMI/DisplayPort output pairs; choose one connector from each display pair.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "switching_method",
+      "field_label": "Switching method",
+      "value": "Not a KVM; single-host dock with no host-switch control listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "keyboard_mouse_channel",
+      "field_label": "Keyboard / mouse channel",
+      "value": "Standard USB path; no dedicated KVM keyboard/mouse channel listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "peripheral_usb_capability",
+      "field_label": "Peripheral USB capability",
+      "value": "6 × USB-A USB 3.0 / 5Gbps.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "clamshell_support",
+      "field_label": "Clamshell support",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "power_delivery",
+      "field_label": "Power Delivery",
+      "value": "Current hardware revision: up to 100W USB-C PD; older units with the same model number may be the earlier 60W revision.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "known_non_working_combinations",
+      "field_label": "Known non-working combinations",
+      "value": "Plugable does not recommend this DisplayLink dock for Linux, gaming or graphics-heavy work; Lenovo ThinkPad P16 Gen 2 is listed as a currently incompatible/limited host combination.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz",
+        "https://kb.plugable.com/en_US/what-technology-drives-each-of-the-displays-outputs-within-the-ud-6950pdz-"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "official_support_evidence",
+      "field_label": "Official Support Evidence",
+      "value": "Plugable says Night Light and display color calibration are not supported on the DisplayLink-controlled display pairs, does not recommend this DisplayLink dock for Linux, and lists the Lenovo ThinkPad P16 Gen 2 as an incompatible/limited host because different USB-C/TB ports expose different subsets of display and USB functions. Source",
+      "source_type": "official_support",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "public_user_report",
+      "field_label": "Public User Report",
+      "value": "Plugable's official product/support page states that users have reported limited UD-6950PDZ compatibility on the ThinkPad P16 Gen 2 depending on which host port is used. This is vendor-published user-report evidence, not SetupMeld testing. Source",
+      "source_type": "public_user_report",
+      "status": "verified",
+      "source_urls": [
+        "https://plugable.com/products/ud-6950pdz"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Plugable UD-6950PDZ",
+      "field_name": "setupmeld_tested",
+      "field_label": "SetupMeld Tested",
+      "value": "未核到",
+      "source_type": "setupmeld_tested",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "host_support",
+      "field_label": "Host support",
+      "value": "Requires Thunderbolt 4. Anker lists M1 Pro/Max support and excludes base M1/M2 MacBooks and ASUS laptops with AMD CPUs.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "display_capability",
+      "field_label": "Display capability",
+      "value": "Windows supports 2 × 4K @ 60Hz and additional higher-count combinations subject to host limits; macOS topology depends on the Mac chip.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "display_interfaces",
+      "field_label": "Display interfaces",
+      "value": "1 × HDMI 2.1, 2 × DisplayPort and a downstream Thunderbolt display path.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "switching_method",
+      "field_label": "Switching method",
+      "value": "Not a KVM; single-host dock with no host-switch control listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "keyboard_mouse_channel",
+      "field_label": "Keyboard / mouse channel",
+      "value": "Standard USB path; no dedicated KVM keyboard/mouse channel listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "peripheral_usb_capability",
+      "field_label": "Peripheral USB capability",
+      "value": "2 × USB-A 3.2 Gen 1 5Gbps; 2 × USB-A 2.0 480Mbps; 2 × USB-C 3.2 Gen 2 10Gbps.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "clamshell_support",
+      "field_label": "Clamshell support",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "power_delivery",
+      "field_label": "Power Delivery",
+      "value": "USB PD 3.0 up to 100W; when both 30W USB-C charging ports are used, Anker states laptop output can fall to 65W.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "known_non_working_combinations",
+      "field_label": "Known non-working combinations",
+      "value": "Not compatible with base M1/M2 MacBooks or ASUS laptops using AMD CPUs.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4?urlName=Introduction-to-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4",
+        "https://service.anker.com/article-description/What-display-resolution-and-refresh-rate-can-Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-support"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "official_support_evidence",
+      "field_label": "Official Support Evidence",
+      "value": "Anker's exact-model FAQ says the host must support Thunderbolt 4, the dock is not compatible with base M1/M2 MacBooks, and laptop charging can fall from the advertised 100W maximum to 65W when both 30W USB-C charging ports are used. Source",
+      "source_type": "official_support",
+      "status": "verified",
+      "source_urls": [
+        "https://service.anker.com/article-description/Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-FAQ?urlName=Anker-778-Thunderbolt-Docking-Station-12-in-1-Thunderbolt-4-FAQ"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "public_user_report",
+      "field_label": "Public User Report",
+      "value": "未核到",
+      "source_type": "public_user_report",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
+      "field_name": "setupmeld_tested",
+      "field_label": "SetupMeld Tested",
+      "value": "未核到",
+      "source_type": "setupmeld_tested",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "host_support",
+      "field_label": "Host support",
+      "value": "Thunderbolt 4/3, USB4 and full-function USB-C hosts; Windows 10+ and macOS 11.4+ are listed, with reduced display capability on some hosts.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "display_capability",
+      "field_label": "Display capability",
+      "value": "Windows and supported Intel/Pro/Max Macs: up to 2 × 4K @ 60Hz. Base M1/M2/M3 Macs: 1 × 4K @ 60Hz. Full-function USB-C: one display.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "display_interfaces",
+      "field_label": "Display interfaces",
+      "value": "DisplayPort 1.4 plus 2 × downstream Thunderbolt 4 display-capable ports.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "switching_method",
+      "field_label": "Switching method",
+      "value": "Not a KVM; single-host dock with no host-switch control listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "keyboard_mouse_channel",
+      "field_label": "Keyboard / mouse channel",
+      "value": "Standard USB path; no dedicated KVM keyboard/mouse channel listed.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "peripheral_usb_capability",
+      "field_label": "Peripheral USB capability",
+      "value": "1 × USB-C 10Gbps; 2 × USB-A 10Gbps; 2 × USB-A 5Gbps, plus Thunderbolt 4 data ports.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "clamshell_support",
+      "field_label": "Clamshell support",
+      "value": "未核到",
+      "source_type": "official_specification",
+      "status": "not_verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "power_delivery",
+      "field_label": "Power Delivery",
+      "value": "Up to 90W laptop charging from the included 180W power supply.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "known_non_working_combinations",
+      "field_label": "Known non-working combinations",
+      "value": "Full-function USB-C hosts support only one display; UGREEN also lists the 2018 Intel Mac mini as incompatible.",
+      "source_type": "official_specification",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a",
+        "https://www.ugreen.com/pages/revodok-series"
+      ],
+      "source_scope": "model_source_set",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "official_support_evidence",
+      "field_label": "Official Support Evidence",
+      "value": "UGREEN's exact-model compatibility notes say full-function USB-C hosts support only one external display, base M1/M2/M3 Macs support a single 4K@60Hz display, Intel Mac mini 2018 is not compatible, and the dock must be connected to power to function. Source",
+      "source_type": "official_support",
+      "status": "verified",
+      "source_urls": [
+        "https://www.ugreen.com/en-ca/products/ca-25054a"
+      ],
+      "source_scope": "record_source",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "public_user_report",
+      "field_label": "Public User Report",
+      "value": "未核到",
+      "source_type": "public_user_report",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    },
+    {
+      "model": "UGREEN Revodok Max 213",
+      "field_name": "setupmeld_tested",
+      "field_label": "SetupMeld Tested",
+      "value": "未核到",
+      "source_type": "setupmeld_tested",
+      "status": "pending",
+      "source_urls": [],
+      "source_scope": "none",
+      "last_checked": "2026-09-13",
+      "valid_from": "2026-09-14",
+      "valid_to": null
+    }
+  ]
+}
