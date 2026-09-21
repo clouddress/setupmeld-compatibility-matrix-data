@@ -4,8 +4,8 @@ Machine-readable data for the [SetupMeld Docking Station Compatibility Matrix](h
 
 ## Release
 
-- Schema version: 1.0.0
-- Data version: 2026-09-14.1
+- Schema version: 1.1.0
+- Data version: 2026-09-16.5
 - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — reuse is allowed with attribution.
 
 ## Files
@@ -17,9 +17,11 @@ Machine-readable data for the [SetupMeld Docking Station Compatibility Matrix](h
 
 ## Field and evidence rules
 
-The fixed field vocabulary is: `host_support`, `display_capability`, `display_interfaces`, `switching_method`, `keyboard_mouse_channel`, `peripheral_usb_capability`, `clamshell_support`, `power_delivery`, `known_non_working_combinations`, `official_support_evidence`, `public_user_report`, `setupmeld_tested`.
+The fixed field vocabulary is: `host_support`, `display_capability`, `display_interfaces`, `switching_method`, `keyboard_mouse_channel`, `peripheral_usb_capability`, `clamshell_support`, `power_delivery`, `known_non_working_combinations`, `official_support_evidence`, `public_user_report`.
 
-Every record has exactly one `source_type`: `official_specification`, `official_support`, `public_user_report`, or `setupmeld_tested`. Verification is a separate `status`: `verified`, `not_verified`, `pending`, or `not_applicable`. Pending and Not verified records are not verified facts.
+Every active record has exactly one `source_type`: `official_specification`, `official_support`, or `public_user_report`. Verification is a separate `status`: `verified`, `pending`, or `not_applicable`. Historical closed v1.0 rows retain their original vocabulary for auditability.
+
+Public-user-report summaries also preserve `evidence_strength`, `independent_report_count`, and `conflict_variables`. PARTIAL reports do not enter the Evidence Layer and do not count toward independent_report_count.
 
 `source_scope=model_source_set` means the published page supplied a set of official sources for the model but did not assign one URL to one capability cell. Do not represent that as cell-level attribution. Provenance refinement is append-only: close the old record with `valid_to` and append a new record with higher precision.
 

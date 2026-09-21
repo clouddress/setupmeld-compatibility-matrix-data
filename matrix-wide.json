@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.0.0",
-  "data_version": "2026-09-14.1",
+  "schema_version": "1.1.0",
+  "data_version": "2026-09-16.5",
   "canonical_url": "https://setupmeld.com/guides/docking-station-laptop-compatibility/",
   "license": {
     "id": "CC-BY-4.0",
@@ -51,10 +51,6 @@
     {
       "name": "public_user_report",
       "label": "Public User Report"
-    },
-    {
-      "name": "setupmeld_tested",
-      "label": "SetupMeld Tested"
     }
   ],
   "rows": [
@@ -70,8 +66,7 @@
       "power_delivery": "60W USB-C charging per connected laptop; both hosts remain powered.",
       "known_non_working_combinations": "macOS cannot create two independent extended displays through the C20 MST path; the two monitors also cannot be split one-per-host while USB peripherals are shared.",
       "official_support_evidence": "AV Access troubleshooting says MacBook dual displays through this MST path are mirrored rather than independently extended. It also says a 4K display falling to 1080p can depend on the laptop's simultaneous video-stream capability and the monitor port, and recommends lowering resolution/refresh rate when video fails. Source",
-      "public_user_report": "未核到",
-      "setupmeld_tested": "未核到"
+      "public_user_report": "Two independent qualifying reports document configuration-specific iDock C20 behavior: one reports recurring flicker/artifact and signal dropout across Lenovo Legion S7 15ACH6 and Dell Latitude 5490 paths; the other reports a Dell Latitude 5440 limited to dual 1440p60 while the same dock reaches dual 4K60 on another host. Because the conclusions differ, evidence strength is single, not corroborated."
     },
     {
       "model": "ASUS ProArt PA278CGRV",
@@ -85,8 +80,7 @@
       "power_delivery": "USB-C Power Delivery up to 96W.",
       "known_non_working_combinations": "未核到",
       "official_support_evidence": "ASUS's product FAQ requires one KVM host to use USB-C with DP Alt Mode; a second host using HDMI or DisplayPort also needs a separate USB upstream cable for keyboard/mouse switching. A video-only second-host cable is therefore not enough for KVM control. Source",
-      "public_user_report": "未核到",
-      "setupmeld_tested": "未核到"
+      "public_user_report": "未核到"
     },
     {
       "model": "StarTech.com 129N-USBC-KVM-DOCK",
@@ -99,9 +93,8 @@
       "clamshell_support": "未核到",
       "power_delivery": "USB PD 3.0: 90W to active host and 45W to second host; both charge simultaneously.",
       "known_non_working_combinations": "未核到",
-      "official_support_evidence": "StarTech's DisplayLink support FAQ says macOS 10.15 or later requires DisplayLink Manager plus the required Screen Recording/accessibility permissions; if the app is not running or permissions are disabled, DisplayLink-driven external displays may not appear. Source",
-      "public_user_report": "On StarTech's official IT Pro Community, a MacBook Pro M3 user reported the second DisplayLink monitor going black when Screen Recording permission was disabled; StarTech support explained that the permission is required for the virtual display path. This is a DisplayLink support case, not a 129N-specific reliability test. Source",
-      "setupmeld_tested": "未核到"
+      "official_support_evidence": "StarTech's DisplayLink support FAQ and public community reply state that macOS requires DisplayLink Manager plus Screen Recording/accessibility permissions; disabling the permission can make DisplayLink-driven displays disappear. The community case did not confirm 129N and is retained only as general DisplayLink support evidence. Sources",
+      "public_user_report": "Two independent exact-model reports support the specific conclusion that 129N USB/peripheral connectivity can be lost on Apple Silicon Mac paths; one case also reports simultaneous dual-4K blackout. The older MacBook Pro M3 Screen Recording topic did not identify 129N and no longer counts as model evidence. Do not generalize these reports into a universal 129N defect."
     },
     {
       "model": "Dell Thunderbolt Dock WD22TB4",
@@ -115,8 +108,7 @@
       "power_delivery": "Up to 130W to supported Dell systems or 90W to non-Dell systems with the 180W adapter.",
       "known_non_working_combinations": "Rear HDMI and MFDP USB-C video paths are muxed and cannot both be used as simultaneous video outputs; non-Thunderbolt hosts lose Thunderbolt features.",
       "official_support_evidence": "Dell troubleshooting says monitor count and resolution depend on the host graphics path; with Intel graphics plus the system LCD, only two displays may be supported, while discrete Nvidia/AMD configurations can support three external displays plus the system LCD. Dell also recommends a dock power-cycle sequence for flicker or USB failures. Source",
-      "public_user_report": "A Dell Community WD22TB4 case reports dual-4K HBR2 behavior falling from 60Hz to 30Hz after reconnecting the dock, with connection-order workarounds discussed in the official community thread. Treat this as a user/support case, not a universal WD22TB4 fact. Source",
-      "setupmeld_tested": "未核到"
+      "public_user_report": "Two independent WD22TB4 reports support the specific conclusion that, in dual-4K setups, reconnect or connection order can change negotiated bandwidth, refresh, and resolution, including 4K60 to 4K30. This is a configuration-sensitive user-reported pattern, not a universal WD22TB4 defect."
     },
     {
       "model": "CalDigit TS4",
@@ -130,8 +122,7 @@
       "power_delivery": "Up to 98W host charging.",
       "known_non_working_combinations": "Original M1 Macs do not support dual external displays through TS4; USB-C hosts have reduced functionality and 2.5Gb Ethernet is Thunderbolt-host dependent.",
       "official_support_evidence": "CalDigit's TS4 support knowledge base documents shared bandwidth groups: many USB ports share the same 10Gbps USB hub, while DisplayPort and downstream Thunderbolt ports share the same 40Gbps Thunderbolt bandwidth. High-bandwidth peripherals therefore compete within those groups rather than receiving dedicated bandwidth. Source",
-      "public_user_report": "未核到",
-      "setupmeld_tested": "未核到"
+      "public_user_report": "One qualifying report documents a successful M3 MacBook Air plus two Samsung M7 4K60 configuration. Two independent high-bandwidth dual-display reports support the narrower conclusion that DSC, Thunderbolt lanes, adapter path, and refresh rate affect the result."
     },
     {
       "model": "Plugable UD-6950PDZ",
@@ -144,9 +135,8 @@
       "clamshell_support": "未核到",
       "power_delivery": "Current hardware revision: up to 100W USB-C PD; older units with the same model number may be the earlier 60W revision.",
       "known_non_working_combinations": "Plugable does not recommend this DisplayLink dock for Linux, gaming or graphics-heavy work; Lenovo ThinkPad P16 Gen 2 is listed as a currently incompatible/limited host combination.",
-      "official_support_evidence": "Plugable says Night Light and display color calibration are not supported on the DisplayLink-controlled display pairs, does not recommend this DisplayLink dock for Linux, and lists the Lenovo ThinkPad P16 Gen 2 as an incompatible/limited host because different USB-C/TB ports expose different subsets of display and USB functions. Source",
-      "public_user_report": "Plugable's official product/support page states that users have reported limited UD-6950PDZ compatibility on the ThinkPad P16 Gen 2 depending on which host port is used. This is vendor-published user-report evidence, not SetupMeld testing. Source",
-      "setupmeld_tested": "未核到"
+      "official_support_evidence": "Plugable's official product/support page lists the Lenovo ThinkPad P16 Gen 2 (21FA) as an incompatible or limited host: rear TB4 ports expose USB data but not Display 1, while the left USB-C port exposes Display 1 but not USB device connectivity. The unlinked phrase 'some users report' is official support guidance, not a traceable public user report. Source",
+      "public_user_report": "Three independent qualifying reports cover different conclusions: a successful HP ZBook 14u G6 three-display split across DP Alt Mode and DisplayLink, an MSI GE76 second-display failure, and a 2021 M1 Pro MacBook Pro disconnect case resolved after Plugable's full reset and original USB cable guidance, followed by three stable days and a solved/locked thread. Different conclusions mean single, not corroborated."
     },
     {
       "model": "Anker 778 Thunderbolt Docking Station (A83A9)",
@@ -160,8 +150,7 @@
       "power_delivery": "USB PD 3.0 up to 100W; when both 30W USB-C charging ports are used, Anker states laptop output can fall to 65W.",
       "known_non_working_combinations": "Not compatible with base M1/M2 MacBooks or ASUS laptops using AMD CPUs.",
       "official_support_evidence": "Anker's exact-model FAQ says the host must support Thunderbolt 4, the dock is not compatible with base M1/M2 MacBooks, and laptop charging can fall from the advertised 100W maximum to 65W when both 30W USB-C charging ports are used. Source",
-      "public_user_report": "未核到",
-      "setupmeld_tested": "未核到"
+      "public_user_report": "Two independent qualifying Apple Silicon Mac reports support intermittent external-display blackout or flicker with Anker 778: an M1 Pro case across HDMI and DisplayPort paths, and an M2 Max / Sequoia 15.1 case with a dual-display Thunderbolt topology. Preserve OS, output path, display count, and host-chip variables."
     },
     {
       "model": "UGREEN Revodok Max 213",
@@ -175,8 +164,7 @@
       "power_delivery": "Up to 90W laptop charging from the included 180W power supply.",
       "known_non_working_combinations": "Full-function USB-C hosts support only one display; UGREEN also lists the 2018 Intel Mac mini as incompatible.",
       "official_support_evidence": "UGREEN's exact-model compatibility notes say full-function USB-C hosts support only one external display, base M1/M2/M3 Macs support a single 4K@60Hz display, Intel Mac mini 2018 is not compatible, and the dock must be connected to power to function. Source",
-      "public_user_report": "未核到",
-      "setupmeld_tested": "未核到"
+      "public_user_report": "Three independent reports cover different conclusions: host-port A/B behavior; SSD and 4K-display Thunderbolt bandwidth sharing; and direct-vs-dock exclusionary evidence that removes the dock as the cause of a Surface Laptop 7 4K30 result. Reported 1440p180 is a user-reported observation only; official DisplayResolutionMax remains 8K@30 / 4K@120 / 2K@144 and the main table is unchanged."
     }
   ]
 }
